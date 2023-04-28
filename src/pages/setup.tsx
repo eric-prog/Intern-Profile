@@ -4,8 +4,8 @@ import exampleEmail from "../assets/email.png"
 
 export default function Setup() {
     return (
-        <div>
-            <p>Setup</p>
+        <div className="flex flex-col items-center justify-center">
+            <p className="text-2xl my-10">Setup</p>
             <p>Step 1: Gathering Information</p>
             <p>This is what we're looking for!</p>
             <ul>
